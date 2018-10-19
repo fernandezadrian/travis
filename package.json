@@ -1,20 +1,18 @@
 {
-  "name": "travis",
+  "name": "my-test-project",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
-  "scripts": {
-    "test": "echo \"It Works Already\""
+  "directories": {
+    "test": "tests"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/fernandezadrian/travis.git"
+  "scripts": {
+    "test": "mocha"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/fernandezadrian/travis/issues"
-  },
-  "homepage": "https://github.com/fernandezadrian/travis#readme"
+  "devDependencies": {
+    "mocha": "^5.2.0"
+  }
 }
